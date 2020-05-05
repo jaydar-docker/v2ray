@@ -15,7 +15,7 @@ mkdir -p ~/Docker/v2ray
 ```bash
 docker run --name v2ray -d -p 9899:9899 -p 9899:9899/udp jaydar/v2ray
 
-docker run --name v2ray -d -p 9899:9899 -p 9899:9899/udp  -v ~/Docker/V2Ray:/etc/v2ray/ jaydar/v2ray
+docker run --name v2ray -d -p 9899:9899 -p 9899:9899/udp  -v ~/Docker/v2ray:/etc/v2ray/ jaydar/v2ray
 ```
 ### 0x04 config.json
 ```json
