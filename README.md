@@ -5,9 +5,9 @@
 docker pull jaydar/v2ray
 ```
 
-### 0x02 Create  directory
+### 0x02 Create directory
 ```bash
-mkdir -p ~/Docker/V2Ray
+mkdir -p ~/Docker/v2ray
 ```
 
 ### 0x03 Run
